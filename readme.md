@@ -1,4 +1,4 @@
-# Food-101 Image Classification using ResNet152
+# CNN-based Image Classification System for Food Recognition Using ResNet152 and Food-101 Dataset
 
 This project demonstrates the progression of training a **ResNet152-based CNN model** on the **Food-101 dataset**, fine-tuned to classify food images into 21 categories (20 specific foods + 'other'). The implementation uses **PyTorch**, runs in **Google Colab with GPU**, and shows performance improvement across three stages:
 1. Baseline evaluation without training
@@ -139,7 +139,7 @@ model.load_state_dict(torch.load('stage3_best.pt'))
 
 ## 🏁 Conclusion
 
-This project effectively demonstrates how deep learning models improve with proper fine-tuning, data augmentation, and training strategies. It serves as a comprehensive example for students studying:
+This project effectively demonstrates how deep learning models improve with proper fine-tuning, data augmentation, and training strategies. It serves as a comprehensive example for topics:
 - Deep Learning
 - Computer Vision
 - Transfer Learning
