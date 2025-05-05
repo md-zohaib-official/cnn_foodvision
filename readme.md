@@ -93,7 +93,7 @@ model.load_state_dict(torch.load('stage3_best.pt'))
 ![Accuracy Plot - Stage 2](screenshots/stage2_ss1.jpg)
 
 **Single Prediction Screenshot:**  
-![Predicted: hamburger | Actual: hamburger](screenshots/stage2_ss2.jpg)
+![Predicted: other | Actual: other](screenshots/stage2_ss2.jpg)
 
 > **Test Accuracy**: ~89%
 
@@ -102,13 +102,13 @@ model.load_state_dict(torch.load('stage3_best.pt'))
 ### Stage 3: After Augmentation & Mixed Precision Training
 
 **Training/Test Accuracy Plot:**  
-![Accuracy Plot - Stage 3](screenshots/stage3__ss1.jpg)
+![Accuracy Plot - Stage 3](screenshots/stage3_ss1.jpg)
 
 **Single Prediction Screenshot (During Training):**  
-![Predicted: sushi | Actual: sushi](screenshots/stage3__ss2.jpg)
+![Predicted: other | Actual: other](screenshots/stage3_ss2.jpg)
 
 **Final Best Model Prediction Screenshot:**  
-![Predicted: pasta | Actual: pasta](screenshots/stage3__ss3.jpg)
+![Predicted: other | Actual: other](screenshots/stage3_ss3.jpg)
 
 > **Test Accuracy**: ~89.81%  
 
